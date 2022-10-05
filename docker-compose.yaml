@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  chatserver:
+    image: scorpius8/chatserver
+    build:    
+      context: /server     
+    ports:
+      - 2020:2020/udp
